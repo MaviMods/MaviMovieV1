@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐌𝐚𝐯𝐢 𝐌𝐨𝐯𝐢𝐞 𝐁𝐨𝐭!)</p>
+[Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐌𝐚𝐯𝐢 𝐌𝐨𝐯𝐢𝐞 𝐁𝐨𝐭!)</p>
 <p align="center">
 
 <h1 align="center">
