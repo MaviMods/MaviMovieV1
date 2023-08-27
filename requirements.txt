@@ -13,7 +13,7 @@ bs4==0.0.1
 #---database---#
 pymongo==4.4.1
 dnspython==2.3.0
-marshmallow==3.20.1
+marshmallow==3.19.0
 umongo==3.1.0
 motor==3.0.0
 
