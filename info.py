@@ -28,7 +28,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS' ,'https://graph.org/file/01ddfcb1e8203879a63d7.jpg https://graph.org/file/d69995d9846fd4ad632b8.jpg https://graph.org/file/a125497b6b85a1d774394.jpg https://graph.org/file/43d26c54d37f4afb830f7.jpg https://graph.org/file/60c1adffc7cc2015f771c.jpg https://graph.org/file/d7b520240b00b7f083a24.jpg https://graph.org/file/0f336b0402db3f2a20037.jpg https://graph.org/file/39cc4e15cad4519d8e932.jpg https://graph.org/file/d59a1108b1ed1c6c6c144.jpg https://te.legra.ph/file/3a4a79f8d5955e64cbb8e.jpg https://graph.org/file/d69995d9846fd4ad632b8.jpg')).split()
+PICS = (environ.get('PICS' ,'https://graph.org/file/a56672686f014755ce0de.jpg https://graph.org/file/54d4a7b4f8d017b0427c0.jpg https://graph.org/file/b09bc4800812ee09881d3.jpg https://graph.org/file/43c04ca1b55fb56b9b8ae.jpg https://graph.org/file/a7df02e57e1a01c084db7.jpg https://graph.org/file/1939f2e18d97e172dd3e9.jpg https://graph.org/file/aeca18a9b8f087438d6e4.jpg https://graph.org/file/5da4516af741df4c6f3d3.jpg https://graph.org/file/858f3332e23c6ed2b7b7a.jpg https://graph.org/file/22be968620008a37ac51e.jpg')).split()
 BOT_START_TIME = time()
 
 # Admins, Channels & Users
