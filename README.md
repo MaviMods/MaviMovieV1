@@ -73,7 +73,7 @@
 
 ## Deploy to Heroku                  
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MaviMods/Mavi_movie_bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MaviMods/Anime3)
 
 ## Deploy to Koyeb
 
