@@ -111,7 +111,7 @@ async def start(client, message):
         file_id = data
         pre = ""
     if data.split("-", 1)[0] == "BATCH":
-        sts = await message.reply("Please wait")
+        sts = await message.reply("Join @animeversekl for more!⚡ ")
         file_id = data.split("-", 1)[1]
         msgs = BATCH_FILES.get(file_id)
         if not msgs:
@@ -159,7 +159,7 @@ async def start(client, message):
         await sts.delete()
         return
     elif data.split("-", 1)[0] == "DSTORE":
-        sts = await message.reply("Please wait")
+        sts = await message.reply("Join @animeversekl for more!⚡ ")
         b_string = data.split("-", 1)[1]
         decoded = (base64.urlsafe_b64decode(b_string + "=" * (-len(b_string) % 4))).decode("ascii")
         try:
@@ -227,7 +227,7 @@ async def start(client, message):
             return
         except:
             pass
-        return await message.reply('join @animeversekl for more! ')
+        return await message.reply('Join @animeversekl for more!⚡ ')
     files = files_[0]
     title = files.file_name
     size=get_size(files.file_size)
