@@ -126,7 +126,10 @@ async def next_page(bot, query):
              InlineKeyboardButton("NEXT⪼", callback_data=f"next_{req}_{key}_{n_offset}")])
         btn.insert(0, [
         InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
-        ])
+        ]
+        [InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
+        InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]        
+        )
     else:
         btn.append(
             [
@@ -137,7 +140,10 @@ async def next_page(bot, query):
         )
         btn.insert(0, [
         InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
-        ])
+        ]
+        [InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
+        InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]        
+        )
     
     try:
         await query.edit_message_reply_markup(
@@ -242,14 +248,20 @@ async def auto_filter(client, msg, spoll=False):
         )
         btn.insert(0, [
         InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
-        ])
+        ]
+        [InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
+        InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]        
+        )
     else:
         btn.append(
             [InlineKeyboardButton(text="📄 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
         )
         btn.insert(0, [
         InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
-        ])
+        ]
+        [InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
+        InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]        
+        )
     
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
