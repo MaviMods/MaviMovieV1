@@ -136,7 +136,7 @@ async def next_page(bot, query):
         )
         btn.insert(0, [
         InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
-        ]
+        ])
     
     try:
         await query.edit_message_reply_markup(
