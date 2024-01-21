@@ -126,7 +126,7 @@ async def next_page(bot, query):
              InlineKeyboardButton("NEXT⪼", callback_data=f"next_{req}_{key}_{n_offset}")])
         btn.insert(0, [
         InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
-        ],[
+        ][
         InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
         InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]
         )
@@ -140,7 +140,7 @@ async def next_page(bot, query):
         )
         btn.insert(0, [
         InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
-        ],[
+        ][
         InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
         InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]      
         )
@@ -248,7 +248,7 @@ async def auto_filter(client, msg, spoll=False):
         )
         btn.insert(0, [
         InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
-        ],[
+        ][
         InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
         InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]     
         )
@@ -258,7 +258,7 @@ async def auto_filter(client, msg, spoll=False):
         )
         btn.insert(0, [
         InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
-        ],[
+        ][
         InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
         InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]   
         )
