@@ -129,7 +129,7 @@ async def next_page(bot, query):
         InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]
                   )
         btn.insert(0, [
-        InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
+        InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='Language{key}')
         ])
         
     else:
@@ -145,7 +145,7 @@ async def next_page(bot, query):
         InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]
                   )
         btn.insert(0, [
-        InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
+        InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='Language{key}')
         ])
         
     
@@ -255,7 +255,7 @@ async def auto_filter(client, msg, spoll=False):
         InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]
                   )
         btn.insert(0, [
-        InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
+        InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='Language{key}')
         ])
         
     else:
@@ -267,7 +267,7 @@ async def auto_filter(client, msg, spoll=False):
         InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]
                   )
         btn.insert(0, [
-        InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
+        InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='Language{key}')
         ])
         
     
