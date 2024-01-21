@@ -276,7 +276,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f'HEY 👋\n\n📌TITLE {search}\n📣YOUR FILE IS READY NOW'
+        cap = f'HEY requested👋\n\n📌TITLE {search}\n📣YOUR FILE IS READY NOW'
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
