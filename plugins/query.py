@@ -517,6 +517,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "pages":
         await query.answer("🤨 Curiosity is a little more, isn't it? 😁", show_alert=True)
+
+    elif query.data == "ntha":
+        await query.answer("ntha mone", show_alert=True)
+    
     elif query.data == "howdl":
         try:
             await query.answer(script.HOW_TO_DOWNLOAD.format(query.from_user.first_name), show_alert=True)
