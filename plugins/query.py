@@ -526,9 +526,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "mavi":
         await query.answer("⚠️If you do not see the requested movie / series file, look at the next page\n\n© MaviMods", show_alert=True)
-    elif query.data == "Language":
-        await query.edit_message_reply_markup(InlineKeyboardMarkup(btn))
-    
     
     elif query.data == "howdl":
         try:
