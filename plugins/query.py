@@ -522,10 +522,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("Hey bro👋\n\n🔻Click On The Button below The Files You Want And Start The Bot❗", show_alert=True)
 
     elif query.data == "tips":
-        await query.answer("•Ask with correct spelling....\n🚫Don't ask movies those are not released in OTT Some Of Theatre Quality Available\n\n❤️For better results:\n🔸- MovieName year\n\🔸- Eg: Salaar 202\n\n© MaviMods", show_alert=True)
+        await query.answer("♦️Ask with correct spelling....\n\n🚫Don't ask movies those are not released in OTT Some Of Theatre Quality Available\n\n❤️For better results:\n🔸- MovieName year\n🔸- Eg: Salaar 202\n\n© MaviMods", show_alert=True)
 
     elif query.data == "mavi":
-        await query.answer("⚠️If you do not see the requested movie / series file, look at the next page⚠️\n\n© MaviMods", show_alert=True)
+        await query.answer("⚠️If you do not see the requested movie / series file, look at the next page\n\n© MaviMods", show_alert=True)
     
     elif query.data == "howdl":
         try:
