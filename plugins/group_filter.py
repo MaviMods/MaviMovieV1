@@ -124,11 +124,11 @@ async def next_page(bot, query):
         btn.append(
             [InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
              InlineKeyboardButton("NEXT⪼", callback_data=f"next_{req}_{key}_{n_offset}")])
-        btn.insert(0, [[
+        btn.insert(0, [
         InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
         ],[
         InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
-        InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]]        
+        InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]
         )
     else:
         btn.append(
@@ -138,11 +138,11 @@ async def next_page(bot, query):
                 InlineKeyboardButton("NEXT⪼", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
-        btn.insert(0, [[
+        btn.insert(0, [
         InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
         ],[
         InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
-        InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]]        
+        InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]      
         )
     
     try:
@@ -246,21 +246,21 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text=f"📄 𝗣𝗮𝗴𝗲 1/{math.ceil(int(total_results) / 6)}", callback_data="pages"),
              InlineKeyboardButton(text="𝗡𝗲𝘅𝘁⪼", callback_data=f"next_{req}_{key}_{offset}")]
         )
-        btn.insert(0, [[
+        btn.insert(0, [
         InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
         ],[
         InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
-        InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]]        
+        InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]     
         )
     else:
         btn.append(
             [InlineKeyboardButton(text="📄 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
         )
-        btn.insert(0, [[
+        btn.insert(0, [
         InlineKeyboardButton(f'🎬 {search} 🎬', callback_data='ntha')
         ],[
         InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
-        InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]]        
+        InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]   
         )
     
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
