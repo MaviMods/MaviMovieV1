@@ -124,8 +124,7 @@ async def next_page(bot, query):
             [InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
              InlineKeyboardButton("NEXT⪼", callback_data=f"next_{req}_{key}_{n_offset}")])
         btn.insert(0,
-        [InlineKeyboardButton(f'Files:{Media.count_files}'),
-        InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
+        [InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
         InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]
                   )
         btn.insert(0, [
@@ -141,8 +140,7 @@ async def next_page(bot, query):
             ],
         )
         btn.insert(0,
-        [InlineKeyboardButton(f'Files:{Media.count_files}'),
-        InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
+        [InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
         InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]
                   )
         btn.insert(0, [
@@ -252,8 +250,7 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(text="𝗡𝗲𝘅𝘁⪼", callback_data=f"next_{req}_{key}_{offset}")]
         )
         btn.insert(0,
-        [InlineKeyboardButton(f'Files:{Media.count_files}'),
-        InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
+        [InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
         InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]
                   )
         btn.insert(0, [
@@ -265,8 +262,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="📄 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
         )
         btn.insert(0,
-        [InlineKeyboardButton(f'Files:{Media.count_files}'),
-        InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
+        [InlineKeyboardButton(f'♻️Tips', callback_data='tips'),
         InlineKeyboardButton(f'⚠️Info', callback_data='mavi')]
                   )
         btn.insert(0, [
